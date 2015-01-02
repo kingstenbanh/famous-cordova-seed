@@ -15,7 +15,7 @@ define(function(require, exports, module) {
 
     var logo = new ImageSurface({
         size: [200, 200],
-        content: '/content/images/famous_logo.png',
+        content: './content/images/famous_logo.png',
         classes: ['backfaceVisibility']
     });
 

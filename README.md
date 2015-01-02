@@ -27,8 +27,8 @@ npm install && bower install
 cordova platforms add android
 cordova plugin add org.apache.cordova.device
 cordova run android -d
-
 ```
+
 When you are able to run this command successfully, you'll have a working version of a Famo.us app. If you encounter issues connecting to your attached Android device, try using
 
 ```
@@ -41,7 +41,12 @@ iOS instructions assume the use of Mac OS X
 cordova platforms add ios
 cordova plugin add org.apache.cordova.device
 cordova build ios -d
+```
 
+If you encounter ios-sim was not found. Run the following
+
+```
+npm install -g ios-sim
 ```
 
 To emulate the app as iOS app, run the following command line
